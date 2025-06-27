@@ -150,6 +150,21 @@
     .link-btn:hover {
       background: #023e8a;
     }
+    /* NEW BUTTON STYLE */
+    .article-btn {
+      display: inline-block;
+      margin: 25px 0;
+      padding: 12px 24px;
+      background: #007bff;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .article-btn:hover {
+      background: #0056b3;
+    }
     @media (max-width: 1000px) {
       main { padding: 32px 16px; }
       .watermark-left, .watermark-right { display: none; }
@@ -187,13 +202,20 @@
       <div class="welcome-text">
         <p>Welcome to the official site of <strong style="color:#023e8a;">Imdad Malik</strong>, a globally trusted AI SEO expert with over 15 years of IT experience and 4 years specializing in advanced SEO and AI-driven digital marketing strategies.</p>
       </div>
-      
+     
       <div class="greeting-block">
         <div class="greeting" id="greeting"></div>
         <div class="local-time" id="local-time"></div>
       </div>
     </div>
     
+    <!-- ONLY ADDITION: THE BUTTON -->
+    <div style="text-align: center;">
+      <a href="top-10-seo-experts-in-pakistan.html" class="article-btn">
+        Read My SEO Article
+      </a>
+    </div>
+
     <div class="content-wrapper">
       <h2>Why Global Businesses Choose Imdad Malik</h2>
       <ul>
@@ -204,7 +226,6 @@
         <li>Featured on major search platforms and digital media</li>
       </ul>
       
-      <!-- Rest of your content remains unchanged -->
       <h2>Work With the Best</h2>
       <p>
         Ready to boost your website traffic and global rankings? Partner with Imdad Malik and see measurable SEO results.
@@ -281,18 +302,18 @@
       
       if (hour < 12) {
         greetText = 'Good Morning!';
-        bgColor = 'rgba(173, 216, 230, 0.3)'; // Light blue for morning
-        watermarkColor = '#5dade2'; // Lighter blue
+        bgColor = 'rgba(173, 216, 230, 0.3)';
+        watermarkColor = '#5dade2';
         watermarkOpacity = 0.05;
       } else if (hour < 18) {
         greetText = 'Good Afternoon!';
-        bgColor = 'rgba(255, 228, 181, 0.3)'; // Light orange for afternoon
-        watermarkColor = '#48c9b0'; // Medium teal
+        bgColor = 'rgba(255, 228, 181, 0.3)';
+        watermarkColor = '#48c9b0';
         watermarkOpacity = 0.06;
       } else {
         greetText = 'Good Evening!';
-        bgColor = 'rgba(105, 105, 105, 0.3)'; // Dark gray for evening
-        watermarkColor = '#1a5276'; // Darker blue
+        bgColor = 'rgba(105, 105, 105, 0.3)';
+        watermarkColor = '#1a5276';
         watermarkOpacity = 0.09;
       }
       
@@ -320,8 +341,8 @@
       localTime.textContent = now.toLocaleTimeString([], options);
     }
     updateLocalTime();
-    setInterval(updateLocalTime, 1000); // Update every second
-    setInterval(updateGreeting, 60000); // Check greeting every minute
+    setInterval(updateLocalTime, 1000);
+    setInterval(updateGreeting, 60000);
   </script>
 </body>
 </html>
