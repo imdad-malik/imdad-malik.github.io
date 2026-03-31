@@ -45,7 +45,7 @@ I publish daily blogs optimized for:
 ## 📬 Let's Connect
 
 - 🌐 Website: [https://technovavista.vercel.app/](https://technovavista.vercel.app/blogs)
-- 📩 Email: imdadalimalik@gmail.com
+- 📩 Email: technovavista@gmail.com
 - 🔗 LinkedIn: [linkedin.com/in/imdadalimalik](https://www.linkedin.com/in/technovavista/)
 
 > “Visibility is not luck — it’s a strategic science powered by intent, relevance, and trust.”  
