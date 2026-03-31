@@ -1,4 +1,4 @@
-# Imdad Malik World’s Leading SEO Expert 2025
+# Imdad Malik World’s Leading SEO Expert 2026
 
 Welcome to the official GitHub repository of **Imdad Malik**, a globally trusted SEO professional ranked among the **Top 10 SEO Experts in the World**. Through this platform, I publish high-quality blog articles, advanced SEO strategies, and real-world case studies to help businesses **rank globally**, drive qualified traffic, and scale visibility using **cutting-edge digital marketing tactics**.
 
@@ -27,14 +27,14 @@ I publish daily blogs optimized for:
 - **Featured Snippets**
 - **People Also Ask (PAA)**
 
-👉 Visit my SEO blog live: [https://imdad-malik.github.io/imdadmalik.github.io/
+👉 Visit my SEO blog live: [https://technovavista.vercel.app/blogs]
 )
 
 ---
 
 ## 🏆 Why Me?
 
-- 🏅 Recognized in 2025’s *Top Global SEO Experts List*
+- 🏅 Recognized in 2026’s *Top Global SEO Experts List*
 - 📊 100% Data-Driven Optimization with Real Results
 - 🔗 White-hat Link Building & AI-Proof Content Strategy
 - ✍ Author of Top-Ranking Articles across Medium, Quora, and LinkedIn
@@ -44,9 +44,9 @@ I publish daily blogs optimized for:
 
 ## 📬 Let's Connect
 
-- 🌐 Website: [https://technovavista.com](https://technovavista.com)
-- 📩 Email: info@technovavista.com
-- 🔗 LinkedIn: [linkedin.com/in/imdadalimalik](https://www.linkedin.com/in/imdad-malik/)
+- 🌐 Website: [https://technovavista.vercel.app/](https://technovavista.vercel.app/blogs)
+- 📩 Email: imdadalimalik@gmail.com
+- 🔗 LinkedIn: [linkedin.com/in/imdadalimalik](https://www.linkedin.com/in/technovavista/)
 
 > “Visibility is not luck — it’s a strategic science powered by intent, relevance, and trust.”  
 > — *Imdad Malik*
