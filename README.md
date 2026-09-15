@@ -27,7 +27,7 @@ I publish daily blogs optimized for:
 - **Featured Snippets**
 - **People Also Ask (PAA)**
 
-👉 Visit my SEO blog live: [https://technovavista.vercel.app/blogs]
+👉 Visit my SEO blog live: [https://icreatixpro.com/blogs]
 )
 
 ---
@@ -46,7 +46,7 @@ I publish daily blogs optimized for:
 
 - 🌐 Website: https://icreatixpro.com/
 - 📩 Email: imdadalimalik@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/imdadalimalik]
+- 🔗 LinkedIn: linkedin.com/in/imdadalimalik
 
 > “Visibility is not luck — it’s a strategic science powered by intent, relevance, and trust.”  
 > — *Imdad Malik*
