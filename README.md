@@ -46,7 +46,7 @@ I publish daily blogs optimized for:
 
 - 🌐 Website: https://icreatixpro.com/
 - 📩 Email: imdadalimalik@gmail.com
-- 🔗 LinkedIn: linkedin.com/in/imdadalimalik
+- 🔗 LinkedIn: https://linkedin.com/in/imdadalimalik
 
 > “Visibility is not luck — it’s a strategic science powered by intent, relevance, and trust.”  
 > — *Imdad Malik*
