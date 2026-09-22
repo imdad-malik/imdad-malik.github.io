@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imdad-malik.github.io/sitemap.xml
