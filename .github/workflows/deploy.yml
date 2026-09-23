@@ -17,8 +17,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -32,8 +36,14 @@ jobs:
       - name: Generate sitemap.xml
         run: python generate-sitemap.py
 
-      - name: Show generated sitemap
-        run: cat sitemap.xml
+      - name: Verify sitemap.xml
+        run: |
+          test -f sitemap.xml
+          test -s sitemap.xml
+          python -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml'); print('sitemap.xml is valid XML')"
+          echo "----- sitemap.xml -----"
+          cat sitemap.xml
+          echo "-----------------------"
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
@@ -43,16 +53,6 @@ jobs:
         with:
           path: .
 
-  deploy:
-    needs: build
-
-    runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
