@@ -20,16 +20,14 @@
 <meta property="og:url" content="https://imdad-malik.github.io/seo-consultant-in-pakistan.html">
 <meta property="og:site_name" content="Imdad Malik">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://imdad-malik.github.io/imdad-malik-seo%20expert.webp">
-<meta property="og:image:width" content="400">
-<meta property="og:image:height" content="400">
+<meta property="og:image" content="https://imdad-malik.github.io/imdad-malik-seo-experts.jpg">
 <meta property="og:image:alt" content="Imdad Malik, SEO Expert and AI Search Strategist from Pakistan">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SEO Consultant in Pakistan | AI SEO, GEO &amp; AEO | Imdad Malik">
 <meta name="twitter:description" content="Pakistan-based SEO consultant Imdad Malik helps UK, UAE, US and Pakistani businesses with AI SEO, GEO and AEO. See the services, process and credentials.">
-<meta name="twitter:image" content="https://imdad-malik.github.io/imdad-malik-seo%20expert.webp">
+<meta name="twitter:image" content="https://imdad-malik.github.io/imdad-malik-seo-experts.jpg">
 <meta name="twitter:image:alt" content="Imdad Malik, SEO Expert and AI Search Strategist from Pakistan">
 
 <!-- STRUCTURED DATA (FAQ text below matches the visible FAQ exactly) -->
@@ -57,7 +55,6 @@
       "jobTitle": "Global SEO Specialist and AI Search Strategist",
       "address": {
         "@type": "PostalAddress",
-        "addressRegion": "Pakistan",
         "addressCountry": "PK"
       },
       "description": "Imdad Malik is a Global SEO Specialist and AI Search Strategist based in Pakistan, working on technical SEO, content strategy, semantic SEO, AEO and GEO for clients in the UK, UAE, USA and Pakistan.",
@@ -93,10 +90,8 @@
     {
       "@type": "ImageObject",
       "@id": "https://imdad-malik.github.io/seo-consultant-in-pakistan.html#image",
-      "url": "https://imdad-malik.github.io/imdad-malik-seo%20expert.webp",
-      "contentUrl": "https://imdad-malik.github.io/imdad-malik-seo%20expert.webp",
-      "width": 400,
-      "height": 400,
+      "url": "https://imdad-malik.github.io/imdad-malik-seo-experts.jpg",
+      "contentUrl": "https://imdad-malik.github.io/imdad-malik-seo-experts.jpg",
       "caption": "Imdad Malik, SEO Expert and AI Search Strategist from Pakistan"
     },
     {
@@ -195,7 +190,15 @@
           "name": "What is the difference between an SEO consultant and an SEO agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A consultant usually provides strategy, audits and guidance from one senior person, while an agency usually supplies a larger team to carry out several kinds of work. Choose a consultant when you need direction or a defined specialist, and an agency when you need broad execution."
+            "text": "A freelance SEO consultant usually provides strategy, audits and guidance as one senior person, while an agency usually supplies a larger team to carry out several kinds of work. Choose a consultant when you need direction or a defined specialist, and an agency when you need broad execution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I hire a freelance SEO consultant or an SEO specialist in Pakistan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the job. A freelance SEO consultant covers strategy, audits and priorities across the whole site, while an SEO specialist in Pakistan usually focuses on one task such as link building or technical fixes. If you are not sure which problem you have, start with a consultant."
           }
         },
         {
@@ -261,6 +264,9 @@ header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);backdr
 .answer-box p{color:var(--text);margin:0;font-size:17px;}
 .answer-box small{display:block;margin-top:13px;color:var(--muted);font-size:13px;line-height:1.6;}
 .answer-box a{color:var(--teal-dark);}
+.hero-person{display:flex;align-items:center;gap:24px;max-width:900px;}
+.hero-person .hero-lead{margin:0;}
+.hero-photo{flex:none;width:112px;height:112px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:4px solid #fff;box-shadow:0 0 0 3px var(--teal),0 10px 26px rgba(0,0,0,.3);background:var(--navy);}
 .hero-actions{margin-top:22px;}
 .hero .btn.secondary{color:#fff;border-color:#64748b;}
 .hero .btn.secondary:hover{background:rgba(255,255,255,.08);}
@@ -327,6 +333,8 @@ footer a{color:#cbd5e1;}
 .navlinks a:not(.navcta){display:none;}
 .hero{padding:51px 0 39px;}
 .hero h1{font-size:clamp(34px,10vw,48px);}
+.hero-person{flex-direction:column;align-items:flex-start;gap:16px;}
+.hero-photo{width:96px;height:96px;}
 .info-strip{grid-template-columns:1fr;}
 .credentials{grid-template-columns:1fr;}
 section{padding:43px 0;}
@@ -376,12 +384,17 @@ section{padding:43px 0;}
 
     <h1>SEO Consultant in Pakistan for AI Search, GEO &amp; AEO</h1>
 
-    <p class="hero-lead">
-      <a href="https://imdad-malik.github.io/">Imdad Malik</a> is a Global SEO Specialist and
-      AI Search Strategist based in Pakistan. He works remotely with businesses in the UK,
-      UAE, USA and Pakistan, combining technical SEO, search-intent research and optimization for
-      AI-generated answers.
-    </p>
+    <div class="hero-person">
+      <img class="hero-photo" src="imdad-malik-seo-experts.jpg"
+           alt="Imdad Malik, SEO consultant in Pakistan" width="112" height="112"
+           decoding="async" fetchpriority="high">
+      <p class="hero-lead">
+        <a href="https://imdad-malik.github.io/">Imdad Malik</a> is a Global SEO Specialist and
+        AI Search Strategist based in Pakistan. He works remotely with businesses in the UK,
+        UAE, USA and Pakistan, combining technical SEO, search-intent research and optimization for
+        AI-generated answers.
+      </p>
+    </div>
 
     <div class="hero-meta">
       <span>5 years in SEO</span>
@@ -512,10 +525,13 @@ section{padding:43px 0;}
   <div class="c">
 
     <div class="section-intro">
-      <h2>AI SEO, GEO and AEO services</h2>
+      <h2>AI SEO services in Pakistan: GEO and AEO</h2>
       <p>
         <strong>AI SEO</strong> is the practice of making your content easy for search engines and
         AI systems to find, understand and trust. It sits on top of normal SEO and does not replace it.
+      </p>
+      <p>
+        Imdad Malik provides these SEO services in Pakistan and for clients in the UK, UAE and USA.
       </p>
     </div>
 
@@ -523,7 +539,7 @@ section{padding:43px 0;}
       <article class="card">
         <span class="card-label">AI SEO</span>
         <h3>AI-ready SEO</h3>
-        <p>Prepare pages for AI-powered search features while keeping the SEO fundamentals strong.</p>
+        <p>Prepare pages for AI-powered search features, also called LLM SEO, while keeping the SEO fundamentals strong.</p>
       </article>
       <article class="card">
         <span class="card-label">GEO</span>
@@ -594,7 +610,7 @@ section{padding:43px 0;}
       <article class="card">
         <span class="card-label">Market</span>
         <h3>Pakistan</h3>
-        <p>Local and national visibility for Pakistani businesses and online stores.</p>
+        <p>Local and national visibility for Pakistani businesses and online stores, including local SEO.</p>
       </article>
     </div>
 
@@ -616,7 +632,8 @@ section{padding:43px 0;}
         Imdad Malik holds the UC Davis SEO Specialization from Coursera and the Surfer SEO
         Masterclass certificate, and has five years of professional SEO and digital marketing
         experience. His <a href="https://pk.linkedin.com/in/imdad-malik" target="_blank" rel="noopener">LinkedIn profile</a>
-        lists his projects and tools.
+        lists his projects and tools, and he also leads
+        <a href="https://icreatixpro.com/services">iCreatixPRO, an SEO and AI-search agency</a>.
       </p>
     </div>
 
@@ -662,7 +679,9 @@ section{padding:43px 0;}
         <p>
           It is one review, so read it in full on the
           <a href="https://clutch.co/profile/icreatixpro-0" target="_blank" rel="noopener">iCreatixPRO Clutch profile</a>
-          and check the portfolio below for yourself.
+          and check the portfolio below for yourself. Imdad Malik also has a
+          <a href="https://share.google/bJibf2iqzdHFFQS9U" target="_blank" rel="noopener">Google Business Profile</a>
+          with his business details.
         </p>
       </div>
     </div>
@@ -747,7 +766,12 @@ section{padding:43px 0;}
 
       <details>
         <summary>What is the difference between an SEO consultant and an SEO agency?</summary>
-        <p>A consultant usually provides strategy, audits and guidance from one senior person, while an agency usually supplies a larger team to carry out several kinds of work. Choose a consultant when you need direction or a defined specialist, and an agency when you need broad execution.</p>
+        <p>A freelance SEO consultant usually provides strategy, audits and guidance as one senior person, while an agency usually supplies a larger team to carry out several kinds of work. Choose a consultant when you need direction or a defined specialist, and an agency when you need broad execution.</p>
+      </details>
+
+      <details>
+        <summary>Should I hire a freelance SEO consultant or an SEO specialist in Pakistan?</summary>
+        <p>It depends on the job. A freelance SEO consultant covers strategy, audits and priorities across the whole site, while an SEO specialist in Pakistan usually focuses on one task such as link building or technical fixes. If you are not sure which problem you have, start with a consultant.</p>
       </details>
 
       <details>
@@ -778,9 +802,9 @@ section{padding:43px 0;}
       <h2>Talk to an SEO consultant in Pakistan about your project</h2>
 
       <p>
-        Start with your goal, check the evidence, and get the scope in writing. Imdad Malik, a Global
-        SEO Specialist and AI Search Strategist based in Pakistan, can review your website and
-        explain what to fix first.
+        Start with your goal, check the evidence, and get the scope in writing. If you want to hire an
+        SEO expert in Pakistan, Imdad Malik, a Global SEO Specialist and AI Search Strategist based in
+        Pakistan, can review your website and explain what to fix first.
       </p>
       <p>
         If you are still comparing options, the
